@@ -12,6 +12,13 @@ import matplotlib.pyplot as plt
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 
+st.set_page_config(
+    page_title="Tablero de dibujo libre",
+    page_icon="🤔",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 Expert=" "
 profile_imgenh=" "
     
